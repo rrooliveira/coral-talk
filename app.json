@@ -27,7 +27,7 @@
         "NPM_CONFIG_PRODUCTION": "false"
     },
     "addons": [{
-        "plan": "mongolab:sandbox",
+        "plan": "ormongo:2-wt",
         "as": "MONGO"
     }, {
         "plan": "rediscloud:30",
